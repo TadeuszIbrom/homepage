@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/tableGear.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Nobile:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body class="body js-body">
+    <main class="mainContainer js-mainContainer">
+        <nav class="navigation js-navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link js-navigation__link" href="#OMnie">Kilka słów o mnie</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link js-navigation__link" href="#Fotograf">O mojej fotografii</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link js-navigation__link" href="#Gear">Sprzęt na jakim pracowałem</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link js-navigation__link" href="#Frontdevolper">O mojej przygodzie z
+                        devolpingiem</a>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="button__lightDark js-button__lightDark">
+            wersja <span class="js-themeName">monochromatyczna</span>
+        </button>
+
+        <header class="hGrouo">
+            <h1>Tadeusz Ibrom</h1>
+            <img class="hGroup__img" src="https://ibrom-fotografia.pl/images/ilustracje/fotograf-slubny-slask.webp"
+                alt="Tadeusz Ibrom" />
+            <h2>Kim jestem?</h2>
+            <h2>
+                Fotografem, frontent devolperem, (aspirującym :-) ), mężem i ojcem.
+            </h2>
+        </header>
+
+        <article>
+            <section id="OMnie">
+                <h3>Kilka słów o mnie.</h3>
+                <p class="paragraph">
+                    Mam na imię <em>Tadeusz</em>, mam wspaniałego syna <em>Kubę</em> i
+                    kochającą żonę <em>Basię</em> . Jestem osobom o bardzo dużym
+                    poczuciu humoru, pogodną i kontaktową. Cechuje się dużą kulturą
+                    osobistą, taktem i wyczuciem.
+                </p>
+            </section>
+            <section id="Fotograf">
+               <p class="paragraph">
+                    Jestem <strong>fotografem zawodowym</strong> , posiadam własne
+                    studio fotograficzne w Bytomiu. Fotografią ślubną zajmuję się już
+                    kilka ładnych lat. Fotografuję śluby i wesela głównie na Śląsku, ale
+                    zdarzyło mi się robić zdjęcia na ślubach poza aglomeracją śląską.
+                    Fotografowałem śluby i wesela w Londynie, Dortmundzie, Krakowie,
+                    Opolu. Więc jeśli podobają ci się moje zdjęcia ślubne, a twoje
+                    wesele będzie na Śląsku lub w innej części Polski, Europy, a nawet
+                    Świata to zapraszam do kontaktu.
+                </p>
+
+               <p class="paragraph">
+                    Przez <b>7</b> lat mieszkałem w <b>Londynie</b> , znam to miasto
+                    bardzo dobrze, wiem jak się w nim poruszać sprawnie i szybko, jeść
+                    tanio i bezpiecznie :-). Jeśli chcesz zrobić sesję ślubną,
+                    narzeczeńską zjednoczonego królestwa. To serdecznie zapraszam, Jeśli
+                    chcesz sesję zdjęciową gdziekolwiek indziej, to też zapraszam do
+                    kontaktu.
+                </p>
+
+                <section id="Gear" class="tableGear">
+                    <table class="table">
+                        <caption class="table__caption">
+                            Aparaty fotograficzne jakie posiadałem
+                        </caption>
+                        <tr class="table__header js-table__header">
+                            <th class="table__cell js-table__cell" scope="col">
+                                Producent
+                            </th>
+                            <th class="table__cell js-table__cell" scope="col">
+                                Model
+                            </th>
+                            <th class="table__cell js-table__cell" scope="col">
+                                rozdzielczość
+                            </th>
+                            <th class="table__cell js-table__cell" scope="col">
+                                Użyteczne ISO
+                            </th>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="
+                    table__cell
+                    js-table__cell js-table__brand
+                    table__brand
+                    js-table__header
+                  " scope="row">
+                                Kodak
+                            </th>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                Dx6940
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                4 mpx
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                200
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="
+                    table__cell
+                    js-table__cell js-table__brand
+                    table__brand
+                    js-table__header
+                  " scope="row" rowspan="3">
+                                Pentax
+                            </th>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                K100
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                6 mpx
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                800
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                K5
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                16 mpx
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                1600
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                K3 II
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                24 mpx
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                3200
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="
+                    table__cell
+                    js-table__cell js-table__brand
+                    table__brand
+                    js-table__header
+                  " scope="row">
+                                Sony
+                            </th>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                Alpha 3
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                24 mpx
+                            </td>
+                            <td class="
+                    table__cell
+                    js-table__cell
+                    table__item
+                    js-table__item
+                  ">
+                                12 800
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+            <section id="Frontdevolper">
+                <h3>Moja przygoda ze stronami WWW</h3>
+               <p class="paragraph">
+                    Pierwszą styczność z HTML miałem w latach 90, poprzedniego stulecia,
+                    ale jakoś mnie to nie wciągło. Na początku tego wieku, zająłem się
+                    na poważnie fotografią. Potrzebowałem więc strony internetowej.
+                    Wtedy to zaczełem poznawac "Pajączka", "Dreamweawer" oraz inne
+                    dziwadła pracujące na zasadzie WYSWIG. Któregoś pięknego dnia
+                    ściągnełem z torrentów :-) kurs tworzenia stron internetowych
+                    opartych o CMS Joomla w wersji 1.5. Początki były trudne, ale jak
+                    juz zrozumiałem mechanizmy panujące w tym CMS, to już wsiąkłem. w
+                    późniejszym czasie prówbowałem się przestawic na WP. Ale wg mnie,
+                    joomla jest bardziej elastyczna i przyjazna. Znowu wróciłem na łono
+                    Joomli. Gdy poznałem szablon " Helix Ultimate" i SP page builder.
+                    Tworzenie stron wydawało mi się bajecznie proste. Po pewnym czasie
+                    zaczołem dostrzegać ograniczenia builderów, oraz nadmair kodu jaki
+                    generują, Postanowiłem nauczyc się css, html i JS, aby pozbyc się
+                    tych niepotrzebnych elementów, które dośc mocno spowalniają stronę
+                    internetową.
+                </p>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">Copyright 2021 Tadeusz Ibrom</footer>
+</body>
+
+</html>

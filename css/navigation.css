@@ -1,0 +1,47 @@
+.navigation {
+    line-height: 1.3em;
+    background-color: lavender;
+    padding: 30px 0;
+    border-bottom: 2px solid coral;
+}
+
+.navigation__list {
+    display: block;
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.navigation__item {
+    font-weight: 700;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #444;
+}
+
+.navigation__link:visited {
+    color: grey;
+}
+
+.navigation__link:focus {
+    outline: 2px solid rgba(28, 110, 164, 1);
+    outline-offset: 1px;
+    padding: 3px;
+}
+
+.navigation__link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.navigation__link:active {
+    color: blueviolet;
+}
+
+.navigation .navigation__link--mono:hover {
+    color: #ccc;
+}

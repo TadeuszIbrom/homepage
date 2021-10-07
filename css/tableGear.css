@@ -1,0 +1,62 @@
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.table__caption {
+    font-size: 24px;
+    font-family: 'Audiowide', cursive;
+    padding: 10px;
+}
+
+.table__header {
+    background-color: crimson;
+    color: white;
+}
+
+.table__cell {
+    border: 1px solid darkred;
+    padding: 20px;
+    text-align: center;
+}
+
+.table .table__brand {
+    font-weight: 400;
+    background-color: steelblue;
+    color: white;
+}
+
+.table .table__brand--mono {
+    background-color: #666;
+    color: rgb(240, 234, 234);
+}
+
+.table__row:nth-child(odd) {
+    background-color: #aaa;
+}
+
+.table__item:hover {
+    background-color: lightcoral;
+    color: #eef;
+}
+
+.table__item--mono:hover {
+    background-color: #444;
+    color: #bbb;
+}
+
+.table__header--mono {
+    background-color: #444;
+    border: 1px solid white;
+}
+
+.table__cell--mono {
+    border: 1px solid white;
+}
+
+.table__frame--mono {
+    border: 1px solid white;
+    background-color: grey;
+    color: white;
+}

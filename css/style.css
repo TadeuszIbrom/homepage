@@ -17,15 +17,14 @@ html {
 
 .mainContainer {
   background-color: #fff;
-  padding: 0 30px;
-  max-width: 1200px;
+   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .darkTheme {
   color: white !important;
   background-color: black !important;
-  margin-top: 20px;
 }
 
 .paragraph {
@@ -34,15 +33,11 @@ html {
 }
 
 .button__lightDark {
-  padding: 10px 7px;
-  border-radius: 20px;
-  font-size: 18px;
-  margin-top: 20px;
+  width: 300px;
+  text-align: center;  
 }
 
-.hGroup__img {
-  max-width: 300px;
-}
+
 
 footer {
   background-color: black;

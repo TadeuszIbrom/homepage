@@ -34,7 +34,7 @@
             mainContainer.classList.toggle("darkTheme");
         }
 
-
+        channgetabelcolors()
         naviHoverChange()
         changeMainElements()
         changeButtonName()

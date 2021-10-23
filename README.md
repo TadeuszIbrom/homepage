@@ -6,4 +6,6 @@ It's mu personal website. Where I teaching HTML, CSS, JS and React.
 https://tadeuszibrom.github.io/homepage/
 
 ### Changes
+- add flex rules
+- refactoring js script
 - First version

@@ -9,72 +9,77 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hgroup.css" />
     <link rel="stylesheet" href="css/navigation.css" />
     <link rel="stylesheet" href="css/tableGear.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Nobile:wght@400;700&display=swap"
         rel="stylesheet" />
-        <link rel="icon" href="images/favicon.ico" >
+    <link rel="icon" href="images/favicon.ico">
     <script defer src="js/script.js"></script>
-  
-<!-- HTML Meta Tags -->
-<title>Tadeusz Ibrom HomePage</title>
-<meta name="description" content="Short story about me">
 
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://tadeuszibrom.github.io/homepage/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tadeusz Ibrom HomePage">
-<meta property="og:description" content="Short story about me">
-<meta property="og:image" content=images/016.jpg">
+    <!-- HTML Meta Tags -->
+    <title>Tadeusz Ibrom HomePage</title>
+    <meta name="description" content="Short story about me">
 
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="tadeuszibrom.github.io">
-<meta property="twitter:url" content="https://tadeuszibrom.github.io/homepage/">
-<meta name="twitter:title" content="Tadeusz Ibrom HomePage">
-<meta name="twitter:description" content="Short story about me">
-<meta name="twitter:image" content="https://tadeuszibrom.github.io/images/016.jpg">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://tadeuszibrom.github.io/homepage/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tadeusz Ibrom HomePage">
+    <meta property="og:description" content="Short story about me">
+    <meta property="og:image" content=images/016.jpg"> <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="tadeuszibrom.github.io">
+    <meta property="twitter:url" content="https://tadeuszibrom.github.io/homepage/">
+    <meta name="twitter:title" content="Tadeusz Ibrom HomePage">
+    <meta name="twitter:description" content="Short story about me">
+    <meta name="twitter:image" content="https://tadeuszibrom.github.io/images/016.jpg">
 
-<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
 
 
 </head>
 
 <body class="body js-body">
+
+    <nav class="navigation js-navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link js-navigation__link" href="#OMnie">Kilka słów o mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link js-navigation__link" href="#Fotograf">O mojej fotografii</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link js-navigation__link" href="#Gear">Sprzęt na jakim pracowałem</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link js-navigation__link" href="#Frontdevolper">O mojej przygodzie z
+                    devolpingiem</a>
+            </li>
+        </ul>
+    </nav>
+
     <main class="mainContainer js-mainContainer">
-        <nav class="navigation js-navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item">
-                    <a class="navigation__link js-navigation__link" href="#OMnie">Kilka słów o mnie</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link js-navigation__link" href="#Fotograf">O mojej fotografii</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link js-navigation__link" href="#Gear">Sprzęt na jakim pracowałem</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link js-navigation__link" href="#Frontdevolper">O mojej przygodzie z
-                        devolpingiem</a>
-                </li>
-            </ul>
-        </nav>
+
 
         <button class="button__lightDark js-button__lightDark">
             wersja <span class="js-themeName">monochromatyczna</span>
         </button>
 
-        <header class="hGrouo">
+        <header class="hGroup">
             <h1>Tadeusz Ibrom</h1>
-            <img class="hGroup__img" src="images/016.jpg"
-                alt="Tadeusz Ibrom" />
-            <h2>Kim jestem?</h2>
-            <h2>
-                Fotografem, frontent devolperem, (aspirującym :-) ), mężem i ojcem.
-            </h2>
+            <div class="hGroup-container">
+                <img class="hGroup__img" src="images/016.jpg" alt="Tadeusz Ibrom" />
+                <div class="hGroup-textDIV">
+                    <h2>Kim jestem?</h2>
+                    <h2>
+                        Fotografem, frontent devolperem, (aspirującym :-) ), mężem i ojcem.
+                    </h2>
+                </div>
+            </div>
         </header>
 
         <article>
@@ -88,7 +93,7 @@
                 </p>
             </section>
             <section id="Fotograf">
-               <p class="paragraph">
+                <p class="paragraph">
                     Jestem <strong>fotografem zawodowym</strong> , posiadam własne
                     studio fotograficzne w Bytomiu. Fotografią ślubną zajmuję się już
                     kilka ładnych lat. Fotografuję śluby i wesela głównie na Śląsku, ale
@@ -99,7 +104,7 @@
                     Świata to zapraszam do kontaktu.
                 </p>
 
-               <p class="paragraph">
+                <p class="paragraph">
                     Przez <b>7</b> lat mieszkałem w <b>Londynie</b> , znam to miasto
                     bardzo dobrze, wiem jak się w nim poruszać sprawnie i szybko, jeść
                     tanio i bezpiecznie :-). Jeśli chcesz zrobić sesję ślubną,
@@ -286,7 +291,7 @@
             </section>
             <section id="Frontdevolper">
                 <h3>Moja przygoda ze stronami WWW</h3>
-               <p class="paragraph">
+                <p class="paragraph">
                     Pierwszą styczność z HTML miałem w latach 90, poprzedniego stulecia,
                     ale jakoś mnie to nie wciągło. Na początku tego wieku, zająłem się
                     na poważnie fotografią. Potrzebowałem więc strony internetowej.
@@ -309,5 +314,4 @@
     </main>
     <footer class="footer">Copyright 2021 Tadeusz Ibrom</footer>
 </body>
-
 </html>

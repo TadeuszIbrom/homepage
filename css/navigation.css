@@ -1,22 +1,22 @@
-.navigation {  
+.navigation {
     background-color: lavender;
     border-bottom: 2px solid coral;
-  
+
     margin: 0 auto;
 }
 
 .navigation__list {
-    display: flex;   
+    display: flex;
     margin: auto;
     justify-content: center;
-padding: 0;
+    padding: 0;
 }
 
 .navigation__item {
     font-weight: 700;
     list-style: none;
-          padding: 10px 20px;
-     }
+    padding: 10px 20px;
+}
 
 
 .navigation__link {

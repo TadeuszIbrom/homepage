@@ -13,32 +13,59 @@
 .table__header {
     background-color: crimson;
     color: white;
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
 }
 
 .table__cell {
     border: 1px solid darkred;
     padding: 20px;
     text-align: center;
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
 }
 
 .table .table__brand {
     font-weight: 400;
     background-color: steelblue;
     color: white;
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
 }
 
 .table .table__brand--mono {
     background-color: #666;
     color: rgb(240, 234, 234);
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
 }
+
 
 .table__row:nth-child(odd) {
     background-color: #aaa;
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
 }
 
 .table__item:hover {
     background-color: lightcoral;
     color: #eef;
+    
 }
 
 .table__item--mono:hover {
